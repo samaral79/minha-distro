@@ -5,3 +5,6 @@ cache/
 *.iso
 *.log
 live-image-*
+chroot.*
+binary.*
+wget-log*
