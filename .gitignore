@@ -1,3 +1,7 @@
-build/
+chroot/
+binary/
+cache/
+.build/
 *.iso
 *.log
+live-image-*

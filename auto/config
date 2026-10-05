@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+lb config noauto \
+  --distribution trixie \
+  --architectures amd64 \
+  --archive-areas "main contrib non-free non-free-firmware" \
+  --debian-installer none \
+  --binary-image iso-hybrid \
+  --iso-application "MinhaDistro" \
+  --iso-volume "MINHADISTRO" \
+  "${@}"
