@@ -1,0 +1,6 @@
+#!/bin/sh
+MARK="$HOME/.config/minhadistro-firstrun-done"
+[ -e "$MARK" ] && exit 0
+sleep 8
+IMG=$(ls /usr/share/wallpapers/MinhaDistro/contents/images/* | head -n 1)
+plasma-apply-wallpaperimage "$IMG" && touch "$MARK"

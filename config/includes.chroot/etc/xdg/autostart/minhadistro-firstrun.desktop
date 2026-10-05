@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=MinhaDistro first run
+Exec=/usr/local/bin/minhadistro-firstrun
+OnlyShowIn=KDE;
