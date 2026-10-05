@@ -8,4 +8,5 @@ lb config noauto \
   --binary-image iso-hybrid \
   --iso-application "MinhaDistro" \
   --iso-volume "MINHADISTRO" \
+  --bootappend-live "boot=live components quiet splash locales=en_US.UTF-8" \
   "${@}"

@@ -1,0 +1,9 @@
+calamares
+calamares-settings-debian
+locales-all
+grub-efi-amd64
+efibootmgr
+os-prober
+dosfstools
+e2fsprogs
+ntfs-3g
